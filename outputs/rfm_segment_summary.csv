@@ -1,0 +1,5 @@
+rfm_segment,customer_count,pct_of_base,avg_lifetime_spend,avg_orders,avg_days_since_last_order
+Champion,486,30.6,15814.51,28.35,18.0
+Loyal,416,26.2,8505.45,18.27,33.0
+At Risk,411,25.8,2755.13,7.58,97.0
+Lost,277,17.4,1032.56,4.54,261.0

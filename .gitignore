@@ -1,0 +1,13 @@
+# Database
+*.db
+
+# Raw source data
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
