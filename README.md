@@ -32,7 +32,7 @@ This project analyses four years of transactional data (2011–2014) from the Gl
 
 **Tools & Stack**
 - **Database:** SQLite 3 (via Python `sqlite3` standard library)
-- **Data loading & export:** Python 3 — `csv`, `sqlite3`, `datetime`, `os`
+- **Data loading & export:** Python 3 : `csv`, `sqlite3`, `datetime`, `os`
 - **Query runner:** Python scripting (no external dependencies required)
 - **Version control:** Git
 
@@ -89,7 +89,7 @@ python setup_db.py
 # 4. Run the SQL scripts
 #    Open any .sql file in queries/ directly in DB Browser for SQLite,
 #    DBeaver, or any SQLite-compatible client pointed at data/superstore.db.
-#    Scripts are numbered and self-contained — run them in any order.
+#    Scripts are numbered and self-contained : run them in any order.
 
 # 5. Export results to CSV
 python outputs/export_results.py
@@ -102,7 +102,7 @@ python outputs/export_results.py
 
 ## Dataset
 
-**Global Superstore Dataset** — a widely-used retail analytics dataset covering orders, customers, products, and shipping across global markets.
+**Global Superstore Dataset** : a widely-used retail analytics dataset covering orders, customers, products, and shipping across global markets.
 
 - 51,290 order lines · 24 columns · January 2011 – December 2014
 - Markets: US, EU, APAC, LATAM, Africa, EMEA, Canada
