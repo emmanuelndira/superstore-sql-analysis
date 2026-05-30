@@ -104,5 +104,5 @@ python outputs/export_results.py
 
 **Global Superstore Dataset** : a widely-used retail analytics dataset covering orders, customers, products, and shipping across global markets.
 
-- 51,290 order lines · 24 columns · January 2011 – December 2014
+- 51,290 order lines · 24 columns · January 2011 : December 2014
 - Markets: US, EU, APAC, LATAM, Africa, EMEA, Canada
