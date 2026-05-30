@@ -1,18 +1,18 @@
-# Superstore Sales Analysis — SQL Portfolio Project
+# Superstore Sales Analysis : SQL Portfolio Project
 
 ## Project Overview
 
-This project analyses four years of transactional data (2011–2014) from the Global Superstore dataset — 51,290 order lines across 147 countries, 1,590 customers, and 10,292 products. The analysis covers revenue growth, profitability by region and product, customer segmentation using RFM scoring, and operational efficiency including the profit impact of discounting and shipping modes. It is aimed at demonstrating production-quality SQL for data analyst and analytics engineer roles.
+This project analyses four years of transactional data (2011–2014) from the Global Superstore dataset : 51,290 order lines across 147 countries, 1,590 customers, and 10,292 products. The analysis covers revenue growth, profitability by region and product, customer segmentation using RFM scoring, and operational efficiency including the profit impact of discounting and shipping modes.
 
 ---
 
 ## Key Business Findings
 
-- **Revenue nearly doubled in four years** — from $2.3M (2011) to $4.3M (2014), driven entirely by volume: profit margin held flat at ~11.5% each year, meaning the business scaled without becoming more efficient.
-- **Discounting above 20% is destroying ~$800K in annual profit.** Orders with no discount run at a 25.3% margin; orders discounted 21–40% average –17.3%; orders above 40% average –74.1% with 98.4% of lines loss-making. A discount cap at 20% would recover that margin without touching pricing.
-- **The top 20% of customers generate 47% of all revenue** — and 30.6% of the customer base qualifies as Champions (high recency, frequency, and spend). The bottom 40% of customers produce just 7.2% of revenue combined.
+- **Revenue nearly doubled in four years** : from $2.3M (2011) to $4.3M (2014), driven entirely by volume: profit margin held flat at ~11.5% each year, meaning the business scaled without becoming more efficient.
+- **Discounting above 20% is destroying ~$800K in annual profit.** Orders with no discount run at a 25.3% margin; orders discounted 21–40% average 17.3%; orders above 40% average 74.1% with 98.4% of lines loss-making. A discount cap at 20% would recover that margin without touching pricing.
+- **The top 20% of customers generate 47% of all revenue** : and 30.6% of the customer base qualifies as Champions (high recency, frequency, and spend). The bottom 40% of customers produce just 7.2% of revenue combined.
 - **Tables is the only sub-category with a negative profit margin (–8.5%)**, losing $64K on $757K of revenue. Southeast Asia earns a 2.0% margin across $884K in sales — both are volume-at-loss situations that pricing or range reviews could address.
-- **The business acquired almost no new customers after 2011** — only 15 net-new customers appeared in 2014 out of 1,511 active that year. All revenue growth came from the same ~1,590 customers buying more frequently, which either signals strong retention or a stalled acquisition pipeline.
+- **The business acquired almost no new customers after 2011** : only 15 net-new customers appeared in 2014 out of 1,511 active that year. All revenue growth came from the same ~1,590 customers buying more frequently, which either signals strong retention or a stalled acquisition pipeline.
 
 ---
 
@@ -103,8 +103,6 @@ python outputs/export_results.py
 ## Dataset
 
 **Global Superstore Dataset** — a widely-used retail analytics dataset covering orders, customers, products, and shipping across global markets.
-
-Source: [Kaggle — Superstore Dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
 
 - 51,290 order lines · 24 columns · January 2011 – December 2014
 - Markets: US, EU, APAC, LATAM, Africa, EMEA, Canada
